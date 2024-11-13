@@ -10,9 +10,9 @@ import numpy as np
 # sys.path.append("/Users/pavankumar/Documents/streamapp/yolov5")
 
 # Import YOLOv5 model and utilities
-from yolov5.models.common import DetectMultiBackend
-from yolov5.utils.general import non_max_suppression, scale_boxes
-from yolov5.utils.torch_utils import select_device
+from models.common import DetectMultiBackend
+from utils.general import non_max_suppression, scale_boxes
+from utils.torch_utils import select_device
 
 # Load the custom YOLOv5 model
 model_path = 'runs/train/ball_person_model2/weights/best.pt'
